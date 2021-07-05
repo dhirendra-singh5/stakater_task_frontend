@@ -1,0 +1,15 @@
+version: '3'
+services:
+   Stakater_Task  :
+     build : Stakater_Task/
+     image: rws-stakater_task :TAG
+     restart: always
+     hostname: localhost
+     environment:
+        {"NAME": "Stakater"}
+     ports:
+      - 9090:9090
+   
+   
+
+
