@@ -18,7 +18,7 @@ I am using simple html code with the help of javaScript, this page calls my web 
 
 Web services can be accessed using any of the below mentioned instructions:
                 
-  - Run web service(backend from https://github.com/dhirendra-singh5/stakater_task_backend/) using application server, then hit the URL: http://localhost:9090/view.html. Before starting the server, set the Environment variable.
+  - Run web service(backend from https://github.com/dhirendra-singh5/stakater_task_frontend/) using application server, then hit the URL: http://localhost:9090/view.html. Before starting the server, set the Environment variable.
                 
   - Create the Docker image using maven plugin or maven file which is in project, then run the camand "docker run -p 9090:9090 hubid/imageName" or we can  provide the tag instead of image name as well, if we have done tagging. Then, hit the url "http://localhost:9090/view.html".
                 
